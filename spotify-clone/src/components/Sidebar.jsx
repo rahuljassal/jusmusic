@@ -1,6 +1,7 @@
 import React from "react";
 import { assets } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
+import MusicPlayer from "./MusicPlayer";
 
 const Sidebar = () => {
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="bg-[#121212] h-[85%] rounded">
-        <div className="p-4 flex items-center justify-between">
+        {/* <div className="p-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img className="w-8" src={assets.stack_icon} alt="" />
             <p className="font-semibold">Your Library</p>
@@ -44,7 +45,8 @@ const Sidebar = () => {
           <button className="px-4 py-1.5 bg-white text-[15px] text-black rounded-full mt-4">
             Browse podcasts
           </button>
-        </div>
+        </div> */}
+        <MusicPlayer />
       </div>
     </div>
   );
