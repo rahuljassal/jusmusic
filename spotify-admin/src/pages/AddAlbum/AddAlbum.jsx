@@ -6,7 +6,7 @@ import axios from "axios";
 
 const AddAlbum = () => {
   const [image, setImage] = useState(false);
-  const [colour, setColour] = useState("");
+  const [colour, setColour] = useState("#000");
   const [name, setName] = useState("");
   const [desc, setDesc] = useState("");
   const [loading, setLoading] = useState(false);
