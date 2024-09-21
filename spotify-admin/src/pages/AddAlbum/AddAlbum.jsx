@@ -26,14 +26,14 @@ const AddAlbum = () => {
 
       const response = await axios.post(`${url}/api/album/add`, formData);
 
-      if (response.data.success) {
-        toast.success("Album Added");
-        setName("");
-        setDesc("");
-        setImage(false);
-      } else {
-        toast.error("Something went wrong");
-      }
+      // if (response.data.success) {
+      toast.success("Album Added");
+      setName("");
+      setDesc("");
+      setImage(false);
+      // } else {
+      //   toast.error("Something went wrong");
+      // }
 
       setLoading(false);
     } catch (error) {
