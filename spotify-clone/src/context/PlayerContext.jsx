@@ -1,5 +1,5 @@
 import { createContext, useEffect, useRef, useState } from "react";
-import { defaultSongsData, defaultAlbumsData } from "../assets/assets";
+// import { defaultSongsData, defaultAlbumsData } from "../assets/assets";
 import axios from "axios";
 
 export const PlayerContext = createContext();
@@ -74,14 +74,14 @@ const PlayerContextProvider = (props) => {
 
   const getSongsData = async () => {
     const response = await axios.get(`${url}/api/song/list`);
-    setSongsData([...defaultSongsData, ...response.data.songs]);
+    setSongsData([...response.data.songs]);
     console.log(response.data.songs);
     setTrack(response.data.songs[0]);
   };
 
   const getAlbumsData = async () => {
     const response = await axios.get(`${url}/api/album/list`);
-    setAlbumData([...defaultAlbumsData, ...response.data.albums]);
+    setAlbumData([...response.data.albums]);
     console.log(response.data.albums);
   };
 
