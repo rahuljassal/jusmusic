@@ -21,7 +21,9 @@ const MusicPlayer = () => {
       <div className="">Now Playing</div>
       <img
         src={image}
-        className="rounded-full animate-spin duration-5000 shadow-2xl shadow-gray-700 "
+        className={`rounded-full ${
+          playStatus ? "animate-spin" : "animate-pulse"
+        } shadow-2xl shadow-gray-700 `}
       />
       <div className="flex flex-col items-center">
         <p className="font-bold text-[25px]">{name}</p>
@@ -42,7 +44,7 @@ const MusicPlayer = () => {
         >
           <hr
             ref={seekBar}
-            className="h-1 border-none w-0 bg-gray-50 rounded-full"
+            className="h-1 border-none w-0 bg-gray-500 rounded-full"
           />
         </div>
       </div>
