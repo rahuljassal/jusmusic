@@ -9,7 +9,8 @@ import ListAlbum from "./pages/ListAlbum/ListAlbum";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Navbar from "./components/Navbar/Navbar";
 
-export const url = "https://jusmusic-backend.onrender.com";
+export const url =
+  import.meta.env.URL || "https://jusmusic-backend.onrender.com";
 
 const App = () => {
   return (
