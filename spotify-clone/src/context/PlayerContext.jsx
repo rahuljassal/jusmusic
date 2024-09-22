@@ -78,14 +78,12 @@ const PlayerContextProvider = (props) => {
   const getSongsData = async () => {
     const response = await axios.get(`${url}/api/song/list`);
     setSongsData([...response.data.songs]);
-    console.log(response.data.songs);
     setTrack(response.data.songs[0]);
   };
 
   const getAlbumsData = async () => {
     const response = await axios.get(`${url}/api/album/list`);
     setAlbumData([...response.data.albums]);
-    console.log(response.data.albums);
   };
 
   useEffect(() => {

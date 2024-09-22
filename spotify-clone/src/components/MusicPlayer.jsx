@@ -15,7 +15,6 @@ const MusicPlayer = () => {
     seekSong,
   } = useContext(PlayerContext);
   const { name, image, desc } = track;
-  console.log("audioRef", track);
   return (
     <div className="m-4 p-8  h-[95%] rounded-3xl flex flex-col items-center bg-gray-950 justify-between shadow-inner shadow-gray-700">
       <div className="">Now Playing</div>
