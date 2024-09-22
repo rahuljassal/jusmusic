@@ -8,7 +8,10 @@ const PlayerContextProvider = (props) => {
   const audioRef = useRef();
   const seekBg = useRef();
   const seekBar = useRef();
-  const url = import.meta.env.URL || "https://jusmusic-backend.onrender.com";
+  const url =
+    import.meta.env.URL ||
+    "https://jusmusic-server.vercel.app" ||
+    "https://jusmusic-backend.onrender.com";
 
   const [songsData, setSongsData] = useState([]);
   const [albumsData, setAlbumData] = useState([]);

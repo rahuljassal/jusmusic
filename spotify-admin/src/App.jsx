@@ -10,7 +10,9 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Navbar from "./components/Navbar/Navbar";
 
 export const url =
-  import.meta.env.URL || "https://jusmusic-backend.onrender.com";
+  import.meta.env.URL ||
+  "https://jusmusic-server.vercel.app" ||
+  "https://jusmusic-backend.onrender.com";
 
 const App = () => {
   return (
