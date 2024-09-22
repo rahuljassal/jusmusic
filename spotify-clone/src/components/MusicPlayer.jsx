@@ -20,7 +20,7 @@ const MusicPlayer = () => {
       <div className="">Now Playing</div>
       <img
         src={image}
-        className={`rounded-full ${
+        className={`rounded-full w-[300px] h-[250px] ${
           playStatus ? "animate-spin" : "animate-pulse"
         } shadow-2xl shadow-gray-700 `}
       />

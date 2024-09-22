@@ -17,7 +17,7 @@ const DisplayHome = () => {
         {albumsData.length ? (
           <h1 className="my-5 font-bold text-2xl">Featured Charts</h1>
         ) : null}
-        <div className="grid grid-rows-2 grid-flow-col overflow-auto">
+        <div className="grid grid-flow-row lg:grid-cols-4 md:grid-cols-4 overflow-auto grid-cols-2">
           {albumsData.map((item, index) => (
             <AlbumItem
               key={index}
@@ -31,7 +31,7 @@ const DisplayHome = () => {
       </div>
       <div className="mb-4">
         <h1 className="my-5 font-bold text-2xl">Today's biggest hits</h1>
-        <div className="grid grid-rows-2 grid-flow-col overflow-auto">
+        <div className="grid grid-flow-row  overflow-auto lg:grid-cols-4 md:grid-cols-4 grid-cols-2">
           {songsData.map((item, index) => (
             <SongItem
               key={index}
