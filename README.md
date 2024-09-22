@@ -1,16 +1,18 @@
 <h2 align="center">
   JUS MUSIC<br/>
-  <a href="https://rahul-jassal-jusmusic.vercel.app/" target="_blank">Live app</a>
+  <a target="_blank" href="https://rahul-jassal-jusmusic.vercel.app/" target="_blank">Live app</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./spotify-clone/src/assets/Spotify.png" />
 </div>
 
 <br/>
 <center>
+
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+
 </center>
 
 ## API Reference
