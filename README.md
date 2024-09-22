@@ -1,6 +1,17 @@
-# JUS MUSIC
+<h2 align="center">
+  JUS MUSIC<br/>
+  <a href="https://rahul-jassal-jusmusic.vercel.app/" target="_blank">Live app</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="./Images/readme-img1.png" />
+</div>
 
-jusMusic is a dynamic music streaming platform built with a modern tech stack, including React, Tailwind CSS, Node.js, Express, and MongoDB. Users can discover and stream their favorite tunes, while administrators enjoy the flexibility of adding new songs and albums through a dedicated admin app.
+<br/>
+<center>
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+</center>
 
 ## API Reference
 
