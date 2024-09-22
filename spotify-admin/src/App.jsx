@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 export const url =
   import.meta.env.URL ||
-  "https://jusmusic-server.vercel.app" ||
+  // "https://jusmusic-server.vercel.app" ||
   "https://jusmusic-backend.onrender.com";
 
 const App = () => {

@@ -26,7 +26,7 @@ const Navbar = () => {
           <a
             className="bg-white text-black text-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer"
             target="_blank"
-            href="https://rahuljassal-jusmusic-admin.onrender.com"
+            href="https://rahul-jassal-jusmusic-admin.vercel.app/add-song"
           >
             Add More Songs
           </a>
