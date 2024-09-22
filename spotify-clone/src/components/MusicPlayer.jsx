@@ -16,11 +16,11 @@ const MusicPlayer = () => {
   } = useContext(PlayerContext);
   const { name, image, desc } = track;
   return (
-    <div className="m-4 p-8  h-[95%] rounded-3xl flex flex-col items-center bg-gray-950 justify-between shadow-inner shadow-gray-700">
+    <div className="m-4 p-8 h-[95%] rounded-3xl flex flex-col items-center bg-gray-950 justify-between shadow-inner shadow-gray-700 ">
       <div className="">Now Playing</div>
       <img
         src={image}
-        className={`rounded-full w-[300px] h-[250px] ${
+        className={`rounded-full aspect-square ${
           playStatus ? "animate-spin" : "animate-pulse"
         } shadow-2xl shadow-gray-700 `}
       />
