@@ -12,7 +12,7 @@ const App = () => {
     <div className="h-screen bg-black">
       {songsData.length !== 0 ? (
         <>
-          <div className="h-[100%] flex">
+          <div className="h-[100%] lg:flex md:flex ">
             <Sidebar />
             <Display />
           </div>
