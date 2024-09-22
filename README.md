@@ -1,5 +1,5 @@
 <h2 align="center">
-  JUS MUSIC<br/>
+  JusMusic🎶<br/>
   <a target="_blank" href="https://rahul-jassal-jusmusic.vercel.app/" target="_blank">Live app</a>
 </h2>
 <div align="center">
@@ -14,6 +14,10 @@
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 
 </center>
+
+<p>
+  <b>JusMusic</b> is a dynamic music streaming platform built with a modern tech stack, including React, Tailwind CSS, Node.js, Express, and MongoDB. Users can discover and stream their favorite tunes, while administrators enjoy the flexibility of adding new songs and albums through a dedicated admin app.
+</p>
 
 ## API Reference
 
