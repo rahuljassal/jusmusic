@@ -75,15 +75,22 @@ const PlayerContextProvider = (props) => {
       audioRef.current.duration;
   };
 
+  function sortArrayByCreatedAtDesc(array) {
+    return array.sort((a, b) => {
+      const dateA = new Date(a.createdAt);
+      const dateB = new Date(b.createdAt);
+      return dateB.getTime() - dateA.getTime();
+    });
+  }
   const getSongsData = async () => {
     const response = await axios.get(`${url}/api/song/list`);
-    setSongsData([...response.data.songs]);
+    setSongsData(sortArrayByCreatedAtDesc(response.data.songs));
     setTrack(response.data.songs[0]);
   };
 
   const getAlbumsData = async () => {
     const response = await axios.get(`${url}/api/album/list`);
-    setAlbumData([...response.data.albums]);
+    setAlbumData(sortArrayByCreatedAtDesc(response.data.albums));
   };
 
   useEffect(() => {
