@@ -4,8 +4,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon server.js",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build"
+    "server": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
